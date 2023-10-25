@@ -1,0 +1,54 @@
+html{
+    font-family: Inter;
+}
+body{
+    margin: 0 auto;
+}
+header{
+    background-color: #401408;
+    padding-left: 20px;
+}
+.texto-blanco{
+    color: #fff;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+.style-nav{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 40px;
+    flex-shrink: 0;
+}
+.titulo-spanty{
+    display: flex;
+    flex-direction: row;
+}
+.spanty-style{
+    font-size: 27.153px;
+    font-weight: 700;
+}
+.reg{
+    align-self: flex-start;
+}
+.contact-box{
+    background-color: #fff;
+    padding: 4px 30px 4px 30px;
+    color: #401408;
+    height: 50px;
+}
+.info-header{
+    display: flex;
+}
+.info-h{
+    display: flex;
+    flex-direction: column;
+}
+.menu-servicios{
+    display: flex;
+    flex-direction: row;
+}
