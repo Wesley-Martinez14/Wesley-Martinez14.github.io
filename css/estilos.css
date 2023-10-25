@@ -43,12 +43,57 @@ header{
 }
 .info-header{
     display: flex;
+    padding-left: 60px;
+}
+h1{
+    font-size: 72px;
 }
 .info-h{
     display: flex;
     flex-direction: column;
+    padding-right: 20px;
 }
 .menu-servicios{
     display: flex;
     flex-direction: row;
+}
+.imagen-header{
+    align-self: flex-end;
+}
+.busqueda-compra{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    color: black;
+    padding: 10px 20px;
+    width: 175px;
+}
+.menu-s{
+    display: flex;
+    flex-direction: row;
+}
+.icon{
+    align-self: center;
+}
+.texto-gris{
+    color: #686A79;
+    font-size: 12px;
+}
+.lineas-texto{
+    line-height: 5px;
+}
+.search{
+    background: black;
+    color: white;
+    align-self: center;
+    padding: 1px 20px;
+    width: 70px;
+    justify-content: center;
+    display: flex;
+
+}
+.servicios-info{
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
 }
