@@ -74,10 +74,15 @@ h1{
 }
 .icon{
     align-self: center;
+    background: #ECECEC;
+    margin-right: 10px;
 }
 .texto-gris{
     color: #686A79;
     font-size: 12px;
+}
+.tamano-texto-menu{
+    font-size: 14px;
 }
 .lineas-texto{
     line-height: 5px;
@@ -90,7 +95,7 @@ h1{
     width: 70px;
     justify-content: center;
     display: flex;
-
+    margin-top: auto;
 }
 .servicios-info{
     display: flex;
