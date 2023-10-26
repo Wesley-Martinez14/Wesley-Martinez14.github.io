@@ -88,12 +88,12 @@ h1{
 .lineas-texto{
     line-height: 5px;
 }
-.search{
+.black-box{
     background: black;
     color: white;
     align-self: center;
     padding: 1px 20px;
-    width: 70px;
+    width: 80px;
     justify-content: center;
     display: flex;
     margin-top: auto;
@@ -116,4 +116,31 @@ h1{
 .tamano-icon{
     width: 110px;
     height: auto;
+}
+.info-principal{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 102px;
+}
+.info-num-orden{
+    display: flex;
+}
+.info-style{
+    padding-right: 20px;
+    line-height: 15px;
+    width: 130px;
+}
+.num-grande{
+    color: #401408;
+    font-size: 30px;
+    font-weight: 600;
+}
+.info-texto{
+    width: 270px;
+}
+h2{
+    color: #401408;
+}
+.texto-margin{
+    margin-bottom: 30px;
 }
