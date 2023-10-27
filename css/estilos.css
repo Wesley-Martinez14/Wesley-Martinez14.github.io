@@ -175,3 +175,41 @@ h2{
     display: flex;
     flex-wrap: wrap;
 }
+.titulo-precios{
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+}
+.texto-negro{
+    color: black;
+    font-size: 60px;
+}
+
+.more{
+    display: flex;
+}
+.flecha{
+    align-self: center;
+}
+.flecha img{
+    width: 15px;
+    margin-top: 7px;
+}
+.detalles-precios{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EEE;
+}
+.detalles-edificio{
+    display: flex;
+    flex-direction: column;
+}
+.detalles-edificio{
+    display: flex;
+}
+.detalles-especificos{
+    display: flex;
+}
+.detalles-ed-estilo{
+    display: flex;
+}
