@@ -133,19 +133,22 @@ h1{
     height: 580px;
     margin-left: 50px;
 }
-
+.info-cuerpo-principal{
+    padding: 100px 0 200px 0;
+}
 .icon-main{
     display: flex;
     justify-content: space-evenly;
+    margin: 0 110px 0 45px;
 }
 .tamano-icon{
-    width: 110px;
+    width: 125px;
     height: auto;
 }
 .info-principal{
     display: flex;
     justify-content: space-around;
-    margin: 50px -30px;
+    margin: 50px 10px;
 }
 .info-num-orden{
     display: flex;
@@ -171,18 +174,22 @@ h2{
     font-size: 15px;
     margin-bottom: 30px;
 }
-.info-precios{
-    display: flex;
-    flex-wrap: wrap;
-}
 .titulo-precios{
     display: flex;
     flex-direction: column;
-    line-height: 0;
+    line-height: 1;
+    width: 330px;
+}
+.More-texto{
+    font-weight: bold;
+}
+.titulo-featured{
+    height: 160px;
 }
 .texto-negro{
     color: black;
-    font-size: 60px;
+    font-size: 72px;
+    margin-top: 0;
 }
 
 .more{
@@ -195,14 +202,35 @@ h2{
     width: 15px;
     margin-top: 7px;
 }
+.info-precios{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.orden-caja-precios{
+    display: flex;
+}
+.primera-caja{
+    margin-bottom: 20px;
+}
 .detalles-precios{
     display: flex;
     flex-direction: column;
     border: 1px solid #EEE;
+    margin-left: 30px;
+}
+.detalles-texto-precios{
+    margin-left: 20px;
 }
 .detalles-edificio{
     display: flex;
     flex-direction: column;
+}
+.edificio-tamano{
+    width: 330px;
+    height: auto;
 }
 .detalles-edificio{
     display: flex;
@@ -212,4 +240,79 @@ h2{
 }
 .detalles-ed-estilo{
     display: flex;
+}
+.texto-negro-peq{
+    color: #191A23;
+    font-weight: 600;
+    font-size: 20px;
+}
+.texto-gris-peq{
+    color: #686A79;
+    font-size: 10px;
+}
+.detalles-especificos{
+    display: flex;
+}
+.detalles-ed-estilo{
+    padding-right: 15px;
+}
+.icon-edificio{
+    padding-right: 5px;
+    align-self: center;
+}
+.icon-tamano{
+    width: 15px;
+    height: auto;
+}
+.calificacion{
+    background: #275738;
+    padding: 20px 0 80px 0;
+}
+.calificacion-titulo-estilo{
+    line-height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.titulo-calificacion{
+    color: white;
+}
+.calificacion-info{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.estrellas{
+    display: flex;
+    margin-bottom: 15px
+}
+.espaciado-estrellas{
+    margin-right: 15px;
+}
+.texto-cal{
+    color: white;
+    width: 510px;
+    text-align: center;
+}
+.Agente{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.info-agente{
+    color: white;
+    line-height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.nombre-agente{
+    font-weight: bold;
+    font-size: 23px;
+}
+.ubicacion-agente{
+    font-size: 14px;
+    font-weight: 100;
 }
