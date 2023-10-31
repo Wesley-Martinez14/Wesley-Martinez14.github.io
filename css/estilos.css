@@ -7,7 +7,6 @@ body{
 header{
     background-color: #401408;
     padding-left: 20px;
-    width: 100%;
 }
 .texto-blanco{
     color: #fff;
@@ -148,7 +147,7 @@ h1{
 .info-principal{
     display: flex;
     justify-content: space-around;
-    margin: 50px 10px;
+    margin: 100px 10px 200px
 }
 .info-num-orden{
     display: flex;
@@ -315,4 +314,90 @@ h2{
 .ubicacion-agente{
     font-size: 14px;
     font-weight: 100;
+}
+.footer{
+    display: flex;
+}
+.footer-info-caja{
+    background: #401408;
+    color: white;
+    width: 30%;
+    padding: 50px 0 30px 90px;
+}
+.h2-footer h2{
+    color: white;
+    width: 250px;
+}
+.info-especifica-footer{
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    padding: 20px 0 20px 0;
+}
+.redes ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: white;
+    margin-left: -40px
+}
+.redes-estilos{
+    color: white;
+}
+.redes-estilos:hover{
+    color: white;
+}
+.redes-estilos:checked{
+    color: white;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+.titulo-form h2{
+    color: #401408;
+}
+.form{
+    margin: 30px 0 30px -10px;
+}
+fieldset{
+    border: none;
+}
+input{
+    border: none;
+    background: #F8F8F8;
+    padding: 10px;
+    width: 200px;
+}
+.datos-form{
+    display: flex;
+    gap: 15px; 
+    margin-bottom: 20px
+}
+.message-caja{
+    width: 435px;
+    height: 100px;
+}
+#message{
+    width: 100%;
+    height: 100%;
+}
+input[type="submit"]{
+    background: black;
+    color: white;
+    margin-top: 40px;
+    width: 100px;
+}
+.nav-bar-form{
+    margin-left: -40px;
+}
+.nav-bar-form nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.nav-footer{
+    color: #7B7B7B;
+    text-decoration: none;
 }
